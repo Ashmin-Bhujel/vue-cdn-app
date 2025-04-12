@@ -2,7 +2,7 @@
 
 A Simple app built using [**Vue.js**](https://vuejs.org/) CDN.
 
-[**Live Preview of App**](https://github.io/ashmin-bhujel/vue-cdn-app)
+[**Live Preview of App**](https://ashmin-bhujel.github.io/vue-cdn-app/)
 
 ## CDN Links
 
