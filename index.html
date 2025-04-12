@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Vue.js CDN App</title>
+  </head>
+
+  <body>
+    <!-- Vue.js CDN -->
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+        }
+      }
+    </script>
+
+    <!-- App -->
+    <div id="app"></div>
+
+    <!-- Vue.js Script -->
+    <script type="module">
+      import { createApp } from "vue";
+      import App from "./App.js";
+
+      createApp(App).mount("#app");
+    </script>
+  </body>
+</html>
